@@ -8,10 +8,6 @@ Dział Rekurencje - zadanie 4
 //Includes
 #include <stdio.h>
 
-//Defines
-#define FALSE 0
-#define TRUE 1
-
 //Get Data
 void getNumbers(int *a, int *b)
 {

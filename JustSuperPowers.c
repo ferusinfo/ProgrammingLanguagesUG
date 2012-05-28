@@ -20,7 +20,7 @@ int main(void)
   scanf("%lf",&a);
 
    fprintf(stdout,"Podaj wykladnik potegi: ");
-  scanf("%lf",&a);
+  scanf("%lf",&b);
 
   if(a < 0)
   {
@@ -31,7 +31,7 @@ int main(void)
   {
     if (b < 0)
     {
-        fprintf(stderr,"Wystapil blad. Wykladnik potegi %.2lf jest ujemny\n",a);
+        fprintf(stderr,"Wystapil blad. Wykladnik potegi %.2lf jest ujemny\n",b);
         exit(1);
     }
 
@@ -43,7 +43,7 @@ int main(void)
     {
       w = 1;
 
-      for (i=1; i=<b; i++)
+      for (i=1; i<=b; i++)
       {
         w *= a;
       }
